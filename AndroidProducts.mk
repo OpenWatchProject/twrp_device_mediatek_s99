@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_harmony.mk
+    $(LOCAL_DIR)/omni_s99.mk

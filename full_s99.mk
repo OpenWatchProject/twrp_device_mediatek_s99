@@ -2,8 +2,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := harmony
-PRODUCT_NAME := full_harmony
+PRODUCT_DEVICE := s99
+PRODUCT_NAME := full_s99
 PRODUCT_BRAND := Mediatek
-PRODUCT_MODEL := harmony
+PRODUCT_MODEL := s99
 PRODUCT_MANUFACTURER := Mediatek

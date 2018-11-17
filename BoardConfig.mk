@@ -15,7 +15,7 @@ BOARD_KERNEL_CMDLINE += bootopt=64S3,32S1,32S1 androidboot.selinux=permissive
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_MKBOOTIMG_ARGS  := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x0e000000
-TARGET_PREBUILT_KERNEL := device/mediatek/harmony/kernel
+TARGET_PREBUILT_KERNEL := device/mediatek/s99/kernel
 
 # TARGET IMAGES
 TARGET_USERIMAGES_USE_EXT4 := true
@@ -35,13 +35,12 @@ RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_INCLUDE_FB2PNG := true
 TW_REBOOT_BOOTLOADER := true
 TW_REBOOT_RECOVERY := true
-BOARD_HAS_FLIPPED_SCREEN := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
 TW_EXCLUDE_SUPERSU := true
-TARGET_RECOVERY_FSTAB := device/mediatek/harmony/recovery/etc/twrp.fstab
+TARGET_RECOVERY_FSTAB := device/mediatek/s99/recovery/etc/twrp.fstab
 BOARD_RECOVERY_SWIPE := true
 BOARD_SUPPRESS_EMMC_WIPE := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"

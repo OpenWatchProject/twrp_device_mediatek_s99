@@ -3,23 +3,14 @@
 Kingwear makes a reference board that they use in their own products and has sold it to multiple diffrent manufacturers
 
 List of confirmed working devices (Probably more out there):
-* Lemfo LES1
-* Kingwear KW88
-* Kingwear KW98
-* Kingwear KW99
-* Finow X5 Plus
-* Diggro DIO1
-* IQ I2
-* Blocks Watch
-* Look Watch
-* AllCall W1
+* Zgpax S99
 
-Add to `.repo/local_manifests/harmony.xml`:
+Add to `.repo/local_manifests/s99.xml`:
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="OpenWatchProject/twrp_device_mediatek_harmony" path="device/mediatek/harmony" remote="github" revision="android-8.1" />
+  <project name="OpenWatchProject/twrp_device_mediatek_s99" path="device/mediatek/s99" remote="github" revision="android-8.1" />
 </manifest>
 ```
 
@@ -29,6 +20,6 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_harmony-eng
+lunch omni_s99-eng
 mka recoveryimage
 ```
